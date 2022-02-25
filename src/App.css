@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
@@ -14,14 +18,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #F1F0EB;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: Garamond;
+  color: black;
 }
 
 .App-link {
@@ -35,4 +40,66 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Portfolio {
+  width: 100%;
+  margin-bottom: 64px;
+}
+
+.Portfolio img {
+  width: 95%;
+  height: 95%;
+  margin: 2.5%;
+}
+
+.Image {
+  background-color: white;
+  width: 240px;
+  height: 240px;
+  margin: 8px;
+  float: left;
+}
+
+.Images {
+  width: 75%;
+  margin: auto;
+}
+
+.Home {
+  width: 100%;
+  color: white;
+  background-color: #9C5E41;
+}
+
+.Header {
+  margin-bottom: 64px;
+}
+
+.Header ul { 
+  list-style: none outside none; 
+  margin:0; 
+  padding: 0; 
+  text-align: center; 
+}
+
+.Header li { 
+  margin: 0 10px; 
+  display: inline; 
+}
+
+.Footer {
+  width: 100%;
+  background-color: #9C5E41;
+}
+
+.Footer p {
+  color: white;
+  font-size: 14px;
+}
+
+.Contact {
+  width: 100%;
+  background-color: #9C5E41;
+  color: white;
 }

@@ -1,14 +1,12 @@
 function Header() {
   return (
     <div className="Header">
-      <main>
-        <h2>Jazlina</h2>
+        <h2>L'Artista Jaslina</h2>
         <ul>
-          <li><p className="tab">Home</p></li>
-          <li><p className="tab">Portfolio</p></li>
-          <li><p className="tab">Contact</p></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-      </main>
     </div>
   );
 }
