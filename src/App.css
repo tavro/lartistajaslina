@@ -2,6 +2,36 @@ html {
   scroll-behavior: smooth;
 }
 
+.headerlink {
+  color: darkslategray;
+}
+
+.headerlink:hover {
+  color: darkgray;
+}
+
+.noncenter {
+  text-align: left;
+}
+
+.area {
+  margin: auto;
+  width: 75%;
+}
+
+.parag {
+  text-align: left;
+}
+
+.icon {
+  margin-left:  4px;
+  margin-right: 4px;
+}
+
+.icons {
+  margin-bottom: 16px;
+}
+
 .App {
   text-align: center;
 }
@@ -70,6 +100,15 @@ html {
   width: 100%;
   color: white;
   background-color: #9C5E41;
+  padding-bottom: 16px;
+}
+
+.Services {
+  width: 100%;
+  color: darkslategray;
+  background-color: #BFB0A1;
+  padding-bottom: 16px;
+  margin-bottom: 64px;
 }
 
 .Header {
